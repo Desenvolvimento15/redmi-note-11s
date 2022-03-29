@@ -40,10 +40,6 @@ var blocks = document.getElementsByClassName("section");
 window.addEventListener('scroll', function(){checkScrollBlocks(blocks,0.5)}, false);
 window.addEventListener('resize', function(){checkScrollBlocks(blocks,0.5)}, false);
 
-$(document).ready(function(){
-$('.section-uitra .video-play-icon').on('click', function(){
-    window.open("https://www.youtube.com/watch?v=0djsNjzzDnE");
-});
 
 $('.slider-section .slick-slider').slick({
 autoplay: true,
@@ -51,5 +47,4 @@ infinite: true,
 slidesToShow: 1,
 slidesToScroll: 1,
 dots: true
-});
 });
